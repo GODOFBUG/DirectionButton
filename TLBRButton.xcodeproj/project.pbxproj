@@ -13,6 +13,7 @@
 		74271ECE21B1548300917EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74271ECD21B1548300917EF2 /* Assets.xcassets */; };
 		74271ED121B1548300917EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74271ECF21B1548300917EF2 /* LaunchScreen.storyboard */; };
 		74271ED421B1548300917EF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74271ED321B1548300917EF2 /* main.m */; };
+		74271EDD21B15A4000917EF2 /* DirectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 74271EDB21B15A4000917EF2 /* DirectionButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		74271ED021B1548300917EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74271ED221B1548300917EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74271ED321B1548300917EF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74271EDB21B15A4000917EF2 /* DirectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionButton.m; sourceTree = "<group>"; };
+		74271EDC21B15A4000917EF2 /* DirectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		74271EC321B1547A00917EF2 /* TLBRButton */ = {
 			isa = PBXGroup;
 			children = (
+				74271EDA21B15A2200917EF2 /* CUMButton */,
 				74271EC421B1547A00917EF2 /* AppDelegate.h */,
 				74271EC521B1547A00917EF2 /* AppDelegate.m */,
 				74271EC721B1547A00917EF2 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				74271ED321B1548300917EF2 /* main.m */,
 			);
 			path = TLBRButton;
+			sourceTree = "<group>";
+		};
+		74271EDA21B15A2200917EF2 /* CUMButton */ = {
+			isa = PBXGroup;
+			children = (
+				74271EDC21B15A4000917EF2 /* DirectionButton.h */,
+				74271EDB21B15A4000917EF2 /* DirectionButton.m */,
+			);
+			path = CUMButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74271EC921B1547A00917EF2 /* ViewController.m in Sources */,
+				74271EDD21B15A4000917EF2 /* DirectionButton.m in Sources */,
 				74271ED421B1548300917EF2 /* main.m in Sources */,
 				74271EC621B1547A00917EF2 /* AppDelegate.m in Sources */,
 			);
